@@ -1,0 +1,50 @@
+ body {
+ background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+ 
+ }
+
+ h1 {
+    color: azure;
+    display: flex;  
+    justify-content: center;  
+    align-items: center; 
+}
+
+.inp {  
+    position: relative;  
+    margin: 20px 0;  
+    
+  }  
+
+  .inp input {  
+    padding: 10px;  
+    font-size: 16px;  
+    width: 900px;  
+    
+  }  
+
+  .inp button {  
+    position: absolute;  
+    right: 0;  
+    top: 50%;  
+    transform: translateY(-50%);  
+    padding: 10px 20px;  
+    background-color: blue;  
+    color: white;  
+    border: none;  
+    cursor: pointer;  
+  }  
+
+  #notComplete {
+    width: 100%;
+    
+  }
+
+  ol li {
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
+    width:150px;
+    background-color: black;
+    height: 30px;
+  }
